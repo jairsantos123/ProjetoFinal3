@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Store - Meus Pedidos</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <div class="logo"><span>×</span>Digital Store</div>
+    <div class="search">
+      <input type="text" placeholder="Tênis">
+      <span class="search-icon">○</span>
+    </div>
+    <div class="user-actions">
+      <div class="cart">🛒<span class="badge">2</span></div>
+      <div class="user">👤 Olá Francisco</div>
+    </div>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Produtos</a>
+    <a href="#">Categorias</a>
+    <a href="#" class="active">Meus Pedidos</a>
+  </nav>
+  
+  <main>
+    <aside>
+      <h3>Meu Perfil</h3>
+      <ul>
+        <li><a href="#" class="active">Meus Pedidos</a></li>
+        <li><a href="#">Minhas Informações</a></li>
+        <li><a href="#">Métodos de Pagamento</a></li>
+      </ul>
+    </aside>
     
+    <section>
+      <div class="orders-header">
+        <h2>Meus Pedidos</h2>
+        <span>STATUS</span>
+      </div>
+      
+      <div class="order">
+        <div class="order-img"></div>
+        <div class="order-info">
+          <span class="order-id">Pedido n° 23456789</span>
+          <div class="product-name">Tênis Nike Revolution 6 Next Nature Masculino</div>
+        </div>
+        <div class="status transit">Produto em trânsito</div>
+      </div>
+      
+      <div class="order">
+        <div class="order-img"></div>
+        <div class="order-info">
+          <span class="order-id">Pedido n° 98765432</span>
+          <div class="product-name">Tênis Nike Revolution 6 Next Nature Masculino</div>
+        </div>
+        <div class="status completed">Finalizado</div>
+      </div>
+      
+      <div class="order">
+        <div class="order-img"></div>
+        <div class="order-info">
+          <span class="order-id">Pedido n° 45678901</span>
+          <div class="product-name">Tênis Nike Revolution 6 Next Nature Masculino</div>
+        </div>
+        <div class="status canceled">Cancelado</div>
+      </div>
+      
+      <div class="order">
+        <div class="order-img"></div>
+        <div class="order-info">
+          <span class="order-id">Pedido n° 34567890</span>
+          <div class="product-name">Tênis Nike Revolution 6 Next Nature Masculino</div>
+        </div>
+        <div class="status completed">Finalizado</div>
+      </div>
+      
+      <div class="order">
+        <div class="order-img"></div>
+        <div class="order-info">
+          <span class="order-id">Pedido n° 78901234</span>
+          <div class="product-name">Tênis Nike Revolution 6 Next Nature Masculino</div>
+        </div>
+        <div class="status completed">Finalizado</div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <div class="footer-logo"><span>×</span>Digital Store</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <div class="social">
+          <a href="#">f</a>
+          <a href="#">i</a>
+          <a href="#">t</a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Informação</h3>
+        <ul>
+          <li><a href="#">Sobre Digi Store</a></li>
+          <li><a href="#">Segurança</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Trabalhe conosco</a></li>
+          <li><a href="#">Meus Pedidos</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Categorias</h3>
+        <ul>
+          <li><a href="#">Camisetas</a></li>
+          <li><a href="#">Calças</a></li>
+          <li><a href="#">Bonés</a></li>
+          <li><a href="#">Headphones</a></li>
+          <li><a href="#">Tênis</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Contato</h3>
+        <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+        <p>(85) 3051-3411</p>
+      </div>
+    </div>
+    
+    <div class="copyright">© 2022 Digital Corega</div>
+  </footer>
 </body>
 </html>
